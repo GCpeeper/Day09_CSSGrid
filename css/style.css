@@ -31,3 +31,55 @@
     background-color: #A6587C;
   }
 }
+
+.grid_container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.grid-item {
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    background-color: lightblue;
+}
+
+.navmenu {
+    grid-column: 1 / span 3;
+}
+
+.reed-section {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+}
+
+.cameron-section {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.whitley-section {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.alex-section {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.xinyuan-section {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.nathan-section {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.tarek-section {
+    grid-column: 2 / span 3;
+    grid-row: 4;
+}
